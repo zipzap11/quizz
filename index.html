@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <script src="script.js" type="module" defer></script>
+  <title>Trivia - Quizz</title>
+</head>
+
+<body>
+  <div class="container none">
+    <div class=" header shadow">
+      <div class="diff-num">
+        <span class="difficulty">Difficult</span>
+        <span class="num">1</span>
+      </div>
+      <div class="time-cont">
+        Time Left <span class="time">10</span>
+        <div class="time-line"></div>
+      </div>
+    </div>
+    <div class="question shadow">What is the meaning of blablabla + HTML and CSS</div>
+    <div class="answer-cont">
+      <button class="answer">
+        <span class="shadow cho">A.</span>
+        <p class="shadow ans">HTML</p>
+      </button>
+      <button class="answer">
+        <span class="shadow cho">B.</span>
+        <p class="shadow ans">CSS</p>
+      </button>
+      <button class="answer">
+        <span class="shadow cho">C.</span>
+        <p class="shadow ans">Javascript</p>
+      </button>
+      <button class="answer">
+        <span class="shadow cho">D.</span>
+        <p class="shadow ans">React</p>
+      </button>
+    </div>
+    <div class="footer">
+      <p class="quest-left"><span class="footer-num">1</span> of 10 Question</p>
+      <button class="next-btn footer-btn">Next Question</button>
+      <button class="finish-btn footer-btn">Finish</button>
+    </div>
+  </div>
+  <div class="starting-cont shadow">
+    <h1>Start Quiz</h1>
+    <button class="start-btn">Start</button>
+  </div>
+</body>
+
+</html>
